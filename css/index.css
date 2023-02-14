@@ -1,0 +1,196 @@
+
+
+nav {
+  margin-top:2%;
+  height: 100vh;
+  width: 16.75vw;
+  overflow-x: hidden;
+  font-size: x-large;
+  background-color: #fff;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+ 
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #c0823b;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(1, 14, 79);
+  
+}
+
+
+div.col-7 {
+  padding-left: 12px!important;
+  z-index: 1030;
+}
+
+
+.jumbotron {
+  margin-bottom: 10px;
+}
+
+
+.footer {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  nav {
+      height: 10vh;
+      margin-left: 15px;
+  }
+  .bg-dark {
+      background-color: #fefcf8!important;
+  }
+  #toggleBtn {
+      background-color: #f6f9fc;
+  }
+  
+  div.col-7 {
+      z-index: 1024;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 1026px) {
+  .mail{
+    display:none;
+  }
+}
+@media only screen and (max-width: 1026px) {
+  .sidebar {
+      display: none;
+      
+
+  }
+  .card{
+    width: 27em;
+    
+  }
+}
+
+a:hover {
+  color: #c0823b;
+  text-decoration: none;
+}
+
+#rightContent {
+  margin-top: 10px;
+  padding: 1;
+  margin-left: auto;
+}
+
+
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #d8dbe3;
+  color: #062763;
+  
+}
+
+#search-bar {
+  background: #FFFFFF;
+  box-shadow: inset 0px 5px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom:5%;
+}
+
+.jumbotron {
+  margin-bottom: 10px;
+  padding: 20px;
+  height:50vh;
+  background-color: #fcffff;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+
+#cardName{
+  padding-left: 1%;
+  text-transform: capitalize;
+}
+
+.card {
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+.card-header,
+.card-footer {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 15px;
+}
+
+.card-title {
+  padding: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-title span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-body {
+
+  height: 40vh;
+  
+}
+
+.card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.bi-chevron-down {
+  margin-right: 0;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(180deg);
+}
+
+.nav-content {
+  font-size: large;
+  padding: 5px 0 0 0;
+  margin: 0;
+  
+}
+
+li{
+  padding: 10px;
+  text-align:left;
+
+}
+
+
+.fa{
+  margin-right: 25px;
+  color: #062763;
+
+}
+  
+.dropdown{
+  margin-left: 15px;
+
+}
